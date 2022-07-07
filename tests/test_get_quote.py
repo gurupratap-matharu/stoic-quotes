@@ -1,5 +1,5 @@
-from main.quotes import quotes
 from main import get_quote
+from main.quotes import quotes
 
 
 def test_get_quote():
@@ -12,4 +12,3 @@ def test_get_quote():
     quote = get_quote()
 
     assert quote in quotes
-
