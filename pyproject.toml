@@ -1,5 +1,8 @@
 [tool.poetry]
 name = "stoic-quotes"
+packages = [
+    { include = "main" },
+]
 version = "0.1.0"
 description = "Quotes to inspire you everytime!"
 authors = ["Gurupratap Matharu <gurupratap.matharu@gmail.com>"]
